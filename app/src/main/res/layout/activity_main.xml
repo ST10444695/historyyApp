@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#416C68"
+    android:backgroundTint="#17CCBB"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="209dp"
+        android:layout_height="60dp"
+        android:text="Generate history"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <ImageView
+        android:id="@+id/imgOne"
+        android:layout_width="204dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imgTwo"
+        android:layout_width="182dp"
+        android:layout_height="188dp"
+        app:srcCompat="@drawable/img_1"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:text="CLEAR"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <EditText
+        android:id="@+id/edtTxt2"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Age ?"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/hstfiguresTxtView"
+        android:layout_width="253dp"
+        android:layout_height="58dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <EditText
+        android:id="@+id/edtTxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="THE HISTORY APP"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
